@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04479F7EAB81DA38D371CD0B /* Pods_QRevise_Vocabulary_QRevise_VocabularyUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D27799E92CAFC00E734AA4A2 /* Pods_QRevise_Vocabulary_QRevise_VocabularyUITests.framework */; };
 		9DBF3DC62A92289E00B7D86A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DBF3DC52A92289E00B7D86A /* AppDelegate.swift */; };
 		9DBF3DC82A92289E00B7D86A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DBF3DC72A92289E00B7D86A /* SceneDelegate.swift */; };
 		9DBF3DCA2A92289E00B7D86A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DBF3DC92A92289E00B7D86A /* ViewController.swift */; };
@@ -16,6 +17,24 @@
 		9DBF3DDD2A92289F00B7D86A /* QRevise_VocabularyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DBF3DDC2A92289F00B7D86A /* QRevise_VocabularyTests.swift */; };
 		9DBF3DE72A92289F00B7D86A /* QRevise_VocabularyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DBF3DE62A92289F00B7D86A /* QRevise_VocabularyUITests.swift */; };
 		9DBF3DE92A92289F00B7D86A /* QRevise_VocabularyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DBF3DE82A92289F00B7D86A /* QRevise_VocabularyUITestsLaunchTests.swift */; };
+		9DBF3E0A2A922B5200B7D86A /* UILabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DBF3E082A922B5200B7D86A /* UILabel.swift */; };
+		9DBF3E0B2A922B5200B7D86A /* UITableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DBF3E092A922B5200B7D86A /* UITableViewCell.swift */; };
+		9DBF3E0D2A922B6300B7D86A /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DBF3E0C2A922B6300B7D86A /* AppCoordinator.swift */; };
+		9DBF3E172A922B9F00B7D86A /* AddNewWordViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DBF3E142A922B9F00B7D86A /* AddNewWordViewModel.swift */; };
+		9DBF3E1B2A922BAA00B7D86A /* ReviseWordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DBF3E182A922BAA00B7D86A /* ReviseWordViewController.swift */; };
+		9DBF3E1C2A922BAA00B7D86A /* ReviseWordViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9DBF3E192A922BAA00B7D86A /* ReviseWordViewController.xib */; };
+		9DBF3E1D2A922BAA00B7D86A /* ReviseWordViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DBF3E1A2A922BAA00B7D86A /* ReviseWordViewModel.swift */; };
+		9DBF3E1F2A922BB700B7D86A /* LearningCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DBF3E1E2A922BB700B7D86A /* LearningCoordinator.swift */; };
+		9DBF3E262A922BE200B7D86A /* BaseUIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DBF3E222A922BE100B7D86A /* BaseUIViewController.swift */; };
+		9DBF3E272A922BE200B7D86A /* BaseRoute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DBF3E232A922BE100B7D86A /* BaseRoute.swift */; };
+		9DBF3E282A922BE200B7D86A /* BaseUINavigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DBF3E242A922BE100B7D86A /* BaseUINavigation.swift */; };
+		9DBF3E292A922BE200B7D86A /* BaseCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DBF3E252A922BE200B7D86A /* BaseCoordinator.swift */; };
+		9DBF3E322A922C8D00B7D86A /* TwoLabelTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DBF3E302A922C8D00B7D86A /* TwoLabelTableViewCell.swift */; };
+		9DBF3E332A922C8D00B7D86A /* TwoLabelTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9DBF3E312A922C8D00B7D86A /* TwoLabelTableViewCell.xib */; };
+		9DBF3E362A92301100B7D86A /* AddNewWordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DBF3E342A92301100B7D86A /* AddNewWordViewController.swift */; };
+		9DBF3E372A92301100B7D86A /* AddNewWordViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9DBF3E352A92301100B7D86A /* AddNewWordViewController.xib */; };
+		E478B79B99EA42140F2E6C3A /* Pods_QRevise_VocabularyTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B61B07297D8A454A751A4DB /* Pods_QRevise_VocabularyTests.framework */; };
+		EDC177BA04412A0EC5C23546 /* Pods_QRevise_Vocabulary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64D4EF51DE289ECC41C1BB93 /* Pods_QRevise_Vocabulary.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +55,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		283B20006BCC9124ABFC0F06 /* Pods-QRevise_Vocabulary.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QRevise_Vocabulary.debug.xcconfig"; path = "Target Support Files/Pods-QRevise_Vocabulary/Pods-QRevise_Vocabulary.debug.xcconfig"; sourceTree = "<group>"; };
+		64D4EF51DE289ECC41C1BB93 /* Pods_QRevise_Vocabulary.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QRevise_Vocabulary.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B61B07297D8A454A751A4DB /* Pods_QRevise_VocabularyTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QRevise_VocabularyTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9DBF3DC22A92289E00B7D86A /* QRevise_Vocabulary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QRevise_Vocabulary.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9DBF3DC52A92289E00B7D86A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9DBF3DC72A92289E00B7D86A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +71,28 @@
 		9DBF3DE22A92289F00B7D86A /* QRevise_VocabularyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QRevise_VocabularyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9DBF3DE62A92289F00B7D86A /* QRevise_VocabularyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRevise_VocabularyUITests.swift; sourceTree = "<group>"; };
 		9DBF3DE82A92289F00B7D86A /* QRevise_VocabularyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRevise_VocabularyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		9DBF3E082A922B5200B7D86A /* UILabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UILabel.swift; sourceTree = "<group>"; };
+		9DBF3E092A922B5200B7D86A /* UITableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITableViewCell.swift; sourceTree = "<group>"; };
+		9DBF3E0C2A922B6300B7D86A /* AppCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		9DBF3E142A922B9F00B7D86A /* AddNewWordViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddNewWordViewModel.swift; sourceTree = "<group>"; };
+		9DBF3E182A922BAA00B7D86A /* ReviseWordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReviseWordViewController.swift; sourceTree = "<group>"; };
+		9DBF3E192A922BAA00B7D86A /* ReviseWordViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ReviseWordViewController.xib; sourceTree = "<group>"; };
+		9DBF3E1A2A922BAA00B7D86A /* ReviseWordViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReviseWordViewModel.swift; sourceTree = "<group>"; };
+		9DBF3E1E2A922BB700B7D86A /* LearningCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LearningCoordinator.swift; sourceTree = "<group>"; };
+		9DBF3E222A922BE100B7D86A /* BaseUIViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseUIViewController.swift; sourceTree = "<group>"; };
+		9DBF3E232A922BE100B7D86A /* BaseRoute.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseRoute.swift; sourceTree = "<group>"; };
+		9DBF3E242A922BE100B7D86A /* BaseUINavigation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseUINavigation.swift; sourceTree = "<group>"; };
+		9DBF3E252A922BE200B7D86A /* BaseCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseCoordinator.swift; sourceTree = "<group>"; };
+		9DBF3E302A922C8D00B7D86A /* TwoLabelTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwoLabelTableViewCell.swift; sourceTree = "<group>"; };
+		9DBF3E312A922C8D00B7D86A /* TwoLabelTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TwoLabelTableViewCell.xib; sourceTree = "<group>"; };
+		9DBF3E342A92301100B7D86A /* AddNewWordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewWordViewController.swift; sourceTree = "<group>"; };
+		9DBF3E352A92301100B7D86A /* AddNewWordViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AddNewWordViewController.xib; sourceTree = "<group>"; };
+		B0DD25E4408B2CFCFBFF2B7B /* Pods-QRevise_VocabularyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QRevise_VocabularyTests.release.xcconfig"; path = "Target Support Files/Pods-QRevise_VocabularyTests/Pods-QRevise_VocabularyTests.release.xcconfig"; sourceTree = "<group>"; };
+		C27EF1CECC53AE2D094218AD /* Pods-QRevise_VocabularyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QRevise_VocabularyTests.debug.xcconfig"; path = "Target Support Files/Pods-QRevise_VocabularyTests/Pods-QRevise_VocabularyTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D27799E92CAFC00E734AA4A2 /* Pods_QRevise_Vocabulary_QRevise_VocabularyUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QRevise_Vocabulary_QRevise_VocabularyUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7E05C55E0A68DBC7A8E7B97 /* Pods-QRevise_Vocabulary.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QRevise_Vocabulary.release.xcconfig"; path = "Target Support Files/Pods-QRevise_Vocabulary/Pods-QRevise_Vocabulary.release.xcconfig"; sourceTree = "<group>"; };
+		E16DEA90A6580D0A5DAA6943 /* Pods-QRevise_Vocabulary-QRevise_VocabularyUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QRevise_Vocabulary-QRevise_VocabularyUITests.debug.xcconfig"; path = "Target Support Files/Pods-QRevise_Vocabulary-QRevise_VocabularyUITests/Pods-QRevise_Vocabulary-QRevise_VocabularyUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F2C2FC8E58F506CEEEB6B252 /* Pods-QRevise_Vocabulary-QRevise_VocabularyUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QRevise_Vocabulary-QRevise_VocabularyUITests.release.xcconfig"; path = "Target Support Files/Pods-QRevise_Vocabulary-QRevise_VocabularyUITests/Pods-QRevise_Vocabulary-QRevise_VocabularyUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +100,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EDC177BA04412A0EC5C23546 /* Pods_QRevise_Vocabulary.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +108,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E478B79B99EA42140F2E6C3A /* Pods_QRevise_VocabularyTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +116,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04479F7EAB81DA38D371CD0B /* Pods_QRevise_Vocabulary_QRevise_VocabularyUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +130,8 @@
 				9DBF3DDB2A92289F00B7D86A /* QRevise_VocabularyTests */,
 				9DBF3DE52A92289F00B7D86A /* QRevise_VocabularyUITests */,
 				9DBF3DC32A92289E00B7D86A /* Products */,
+				FF1BB41288E8B314D38E8DBD /* Pods */,
+				DBCFE9541E9B00C3FF2AEBDF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,11 +148,11 @@
 		9DBF3DC42A92289E00B7D86A /* QRevise_Vocabulary */ = {
 			isa = PBXGroup;
 			children = (
-				9DBF3DC52A92289E00B7D86A /* AppDelegate.swift */,
-				9DBF3DC72A92289E00B7D86A /* SceneDelegate.swift */,
+				9DBF3E032A922AA800B7D86A /* Sources */,
+				9DBF3E022A922AA000B7D86A /* Resources */,
+				9DBF3E012A922A8E00B7D86A /* SupportingFiles */,
 				9DBF3DC92A92289E00B7D86A /* ViewController.swift */,
 				9DBF3DCB2A92289E00B7D86A /* Main.storyboard */,
-				9DBF3DCE2A92289F00B7D86A /* Assets.xcassets */,
 				9DBF3DD02A92289F00B7D86A /* LaunchScreen.storyboard */,
 				9DBF3DD32A92289F00B7D86A /* Info.plist */,
 			);
@@ -127,6 +176,157 @@
 			path = QRevise_VocabularyUITests;
 			sourceTree = "<group>";
 		};
+		9DBF3E012A922A8E00B7D86A /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				9DBF3DC72A92289E00B7D86A /* SceneDelegate.swift */,
+				9DBF3DC52A92289E00B7D86A /* AppDelegate.swift */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		9DBF3E022A922AA000B7D86A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9DBF3DCE2A92289F00B7D86A /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		9DBF3E032A922AA800B7D86A /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				9DBF3E2C2A922C1D00B7D86A /* Commons */,
+				9DBF3E2B2A922C1100B7D86A /* NetWorking */,
+				9DBF3E2A2A922C0200B7D86A /* Models */,
+				9DBF3E062A922B2A00B7D86A /* Extensions */,
+				9DBF3E0E2A922B6900B7D86A /* Modules */,
+				9DBF3E212A922BD400B7D86A /* Bases */,
+				9DBF3E0C2A922B6300B7D86A /* AppCoordinator.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		9DBF3E062A922B2A00B7D86A /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				9DBF3E072A922B4100B7D86A /* UIKits */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		9DBF3E072A922B4100B7D86A /* UIKits */ = {
+			isa = PBXGroup;
+			children = (
+				9DBF3E082A922B5200B7D86A /* UILabel.swift */,
+				9DBF3E092A922B5200B7D86A /* UITableViewCell.swift */,
+			);
+			path = UIKits;
+			sourceTree = "<group>";
+		};
+		9DBF3E0E2A922B6900B7D86A /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				9DBF3E0F2A922B7500B7D86A /* Learning */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		9DBF3E0F2A922B7500B7D86A /* Learning */ = {
+			isa = PBXGroup;
+			children = (
+				9DBF3E1E2A922BB700B7D86A /* LearningCoordinator.swift */,
+				9DBF3E112A922B9100B7D86A /* ReviseWord */,
+				9DBF3E102A922B8500B7D86A /* AddNewWord */,
+			);
+			path = Learning;
+			sourceTree = "<group>";
+		};
+		9DBF3E102A922B8500B7D86A /* AddNewWord */ = {
+			isa = PBXGroup;
+			children = (
+				9DBF3E142A922B9F00B7D86A /* AddNewWordViewModel.swift */,
+				9DBF3E342A92301100B7D86A /* AddNewWordViewController.swift */,
+				9DBF3E352A92301100B7D86A /* AddNewWordViewController.xib */,
+			);
+			path = AddNewWord;
+			sourceTree = "<group>";
+		};
+		9DBF3E112A922B9100B7D86A /* ReviseWord */ = {
+			isa = PBXGroup;
+			children = (
+				9DBF3E182A922BAA00B7D86A /* ReviseWordViewController.swift */,
+				9DBF3E192A922BAA00B7D86A /* ReviseWordViewController.xib */,
+				9DBF3E1A2A922BAA00B7D86A /* ReviseWordViewModel.swift */,
+			);
+			path = ReviseWord;
+			sourceTree = "<group>";
+		};
+		9DBF3E212A922BD400B7D86A /* Bases */ = {
+			isa = PBXGroup;
+			children = (
+				9DBF3E252A922BE200B7D86A /* BaseCoordinator.swift */,
+				9DBF3E232A922BE100B7D86A /* BaseRoute.swift */,
+				9DBF3E242A922BE100B7D86A /* BaseUINavigation.swift */,
+				9DBF3E222A922BE100B7D86A /* BaseUIViewController.swift */,
+			);
+			path = Bases;
+			sourceTree = "<group>";
+		};
+		9DBF3E2A2A922C0200B7D86A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		9DBF3E2B2A922C1100B7D86A /* NetWorking */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = NetWorking;
+			sourceTree = "<group>";
+		};
+		9DBF3E2C2A922C1D00B7D86A /* Commons */ = {
+			isa = PBXGroup;
+			children = (
+				9DBF3E2D2A922C2C00B7D86A /* Cells */,
+			);
+			path = Commons;
+			sourceTree = "<group>";
+		};
+		9DBF3E2D2A922C2C00B7D86A /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				9DBF3E302A922C8D00B7D86A /* TwoLabelTableViewCell.swift */,
+				9DBF3E312A922C8D00B7D86A /* TwoLabelTableViewCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		DBCFE9541E9B00C3FF2AEBDF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				64D4EF51DE289ECC41C1BB93 /* Pods_QRevise_Vocabulary.framework */,
+				D27799E92CAFC00E734AA4A2 /* Pods_QRevise_Vocabulary_QRevise_VocabularyUITests.framework */,
+				6B61B07297D8A454A751A4DB /* Pods_QRevise_VocabularyTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FF1BB41288E8B314D38E8DBD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				283B20006BCC9124ABFC0F06 /* Pods-QRevise_Vocabulary.debug.xcconfig */,
+				D7E05C55E0A68DBC7A8E7B97 /* Pods-QRevise_Vocabulary.release.xcconfig */,
+				E16DEA90A6580D0A5DAA6943 /* Pods-QRevise_Vocabulary-QRevise_VocabularyUITests.debug.xcconfig */,
+				F2C2FC8E58F506CEEEB6B252 /* Pods-QRevise_Vocabulary-QRevise_VocabularyUITests.release.xcconfig */,
+				C27EF1CECC53AE2D094218AD /* Pods-QRevise_VocabularyTests.debug.xcconfig */,
+				B0DD25E4408B2CFCFBFF2B7B /* Pods-QRevise_VocabularyTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,9 +334,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9DBF3DEC2A92289F00B7D86A /* Build configuration list for PBXNativeTarget "QRevise_Vocabulary" */;
 			buildPhases = (
+				FBBAC4237F831097662DA7B8 /* [CP] Check Pods Manifest.lock */,
 				9DBF3DBE2A92289E00B7D86A /* Sources */,
 				9DBF3DBF2A92289E00B7D86A /* Frameworks */,
 				9DBF3DC02A92289E00B7D86A /* Resources */,
+				F7DC5636298395624C68C179 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -151,6 +353,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9DBF3DEF2A92289F00B7D86A /* Build configuration list for PBXNativeTarget "QRevise_VocabularyTests" */;
 			buildPhases = (
+				AAA9B2BB6DCF68CBA9C2369E /* [CP] Check Pods Manifest.lock */,
 				9DBF3DD42A92289F00B7D86A /* Sources */,
 				9DBF3DD52A92289F00B7D86A /* Frameworks */,
 				9DBF3DD62A92289F00B7D86A /* Resources */,
@@ -169,9 +372,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9DBF3DF22A92289F00B7D86A /* Build configuration list for PBXNativeTarget "QRevise_VocabularyUITests" */;
 			buildPhases = (
+				5B472022193401B83C48547D /* [CP] Check Pods Manifest.lock */,
 				9DBF3DDE2A92289F00B7D86A /* Sources */,
 				9DBF3DDF2A92289F00B7D86A /* Frameworks */,
 				9DBF3DE02A92289F00B7D86A /* Resources */,
+				94B85C266B2D27C11F434BE0 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -233,7 +438,10 @@
 			files = (
 				9DBF3DD22A92289F00B7D86A /* LaunchScreen.storyboard in Resources */,
 				9DBF3DCF2A92289F00B7D86A /* Assets.xcassets in Resources */,
+				9DBF3E1C2A922BAA00B7D86A /* ReviseWordViewController.xib in Resources */,
 				9DBF3DCD2A92289E00B7D86A /* Main.storyboard in Resources */,
+				9DBF3E332A922C8D00B7D86A /* TwoLabelTableViewCell.xib in Resources */,
+				9DBF3E372A92301100B7D86A /* AddNewWordViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,14 +461,130 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5B472022193401B83C48547D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-QRevise_Vocabulary-QRevise_VocabularyUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		94B85C266B2D27C11F434BE0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-QRevise_Vocabulary-QRevise_VocabularyUITests/Pods-QRevise_Vocabulary-QRevise_VocabularyUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-QRevise_Vocabulary-QRevise_VocabularyUITests/Pods-QRevise_Vocabulary-QRevise_VocabularyUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-QRevise_Vocabulary-QRevise_VocabularyUITests/Pods-QRevise_Vocabulary-QRevise_VocabularyUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AAA9B2BB6DCF68CBA9C2369E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-QRevise_VocabularyTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F7DC5636298395624C68C179 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-QRevise_Vocabulary/Pods-QRevise_Vocabulary-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-QRevise_Vocabulary/Pods-QRevise_Vocabulary-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-QRevise_Vocabulary/Pods-QRevise_Vocabulary-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FBBAC4237F831097662DA7B8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-QRevise_Vocabulary-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		9DBF3DBE2A92289E00B7D86A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9DBF3E0D2A922B6300B7D86A /* AppCoordinator.swift in Sources */,
+				9DBF3E0B2A922B5200B7D86A /* UITableViewCell.swift in Sources */,
 				9DBF3DCA2A92289E00B7D86A /* ViewController.swift in Sources */,
+				9DBF3E322A922C8D00B7D86A /* TwoLabelTableViewCell.swift in Sources */,
 				9DBF3DC62A92289E00B7D86A /* AppDelegate.swift in Sources */,
+				9DBF3E1D2A922BAA00B7D86A /* ReviseWordViewModel.swift in Sources */,
+				9DBF3E0A2A922B5200B7D86A /* UILabel.swift in Sources */,
+				9DBF3E362A92301100B7D86A /* AddNewWordViewController.swift in Sources */,
+				9DBF3E1B2A922BAA00B7D86A /* ReviseWordViewController.swift in Sources */,
 				9DBF3DC82A92289E00B7D86A /* SceneDelegate.swift in Sources */,
+				9DBF3E272A922BE200B7D86A /* BaseRoute.swift in Sources */,
+				9DBF3E292A922BE200B7D86A /* BaseCoordinator.swift in Sources */,
+				9DBF3E282A922BE200B7D86A /* BaseUINavigation.swift in Sources */,
+				9DBF3E262A922BE200B7D86A /* BaseUIViewController.swift in Sources */,
+				9DBF3E1F2A922BB700B7D86A /* LearningCoordinator.swift in Sources */,
+				9DBF3E172A922B9F00B7D86A /* AddNewWordViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,6 +756,7 @@
 		};
 		9DBF3DED2A92289F00B7D86A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 283B20006BCC9124ABFC0F06 /* Pods-QRevise_Vocabulary.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -459,6 +784,7 @@
 		};
 		9DBF3DEE2A92289F00B7D86A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D7E05C55E0A68DBC7A8E7B97 /* Pods-QRevise_Vocabulary.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -486,6 +812,7 @@
 		};
 		9DBF3DF02A92289F00B7D86A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C27EF1CECC53AE2D094218AD /* Pods-QRevise_VocabularyTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -505,6 +832,7 @@
 		};
 		9DBF3DF12A92289F00B7D86A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B0DD25E4408B2CFCFBFF2B7B /* Pods-QRevise_VocabularyTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -524,6 +852,7 @@
 		};
 		9DBF3DF32A92289F00B7D86A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E16DEA90A6580D0A5DAA6943 /* Pods-QRevise_Vocabulary-QRevise_VocabularyUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -541,6 +870,7 @@
 		};
 		9DBF3DF42A92289F00B7D86A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F2C2FC8E58F506CEEEB6B252 /* Pods-QRevise_Vocabulary-QRevise_VocabularyUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

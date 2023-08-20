@@ -1,0 +1,5 @@
+#import <Foundation/Foundation.h>
+@interface PodsDummy_Pods_QRevise_Vocabulary_QRevise_VocabularyUITests : NSObject
+@end
+@implementation PodsDummy_Pods_QRevise_Vocabulary_QRevise_VocabularyUITests
+@end
