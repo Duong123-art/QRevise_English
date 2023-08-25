@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import RxSwift
 
 class AddNewWordViewModel: ViewModelType {
     private let router: Router<LearningRoute>?

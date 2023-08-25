@@ -7,6 +7,8 @@ target 'QRevise_Vocabulary' do
 
   pod 'SnapKit', '~> 5.0.0'
   # Pods for QRevise_Vocabulary
+  
+  pod 'RxSwift', '~> 6.5'
 
   target 'QRevise_VocabularyTests' do
     inherit! :search_paths

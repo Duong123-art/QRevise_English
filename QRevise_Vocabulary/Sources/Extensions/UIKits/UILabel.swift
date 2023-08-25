@@ -7,6 +7,10 @@
 
 import UIKit
 
-//extension UILabel {
-//    func setup(text: String, font: UIFont = .,)
-//}
+extension UILabel {
+    func setup(text: String, font: AppFontStandard = .body, textColor: UIColor = .lightOrange) {
+        self.text = text
+        self.font = font.font
+        self.textColor = textColor
+    }
+}
